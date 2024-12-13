@@ -1,0 +1,313 @@
+{
+ "files": [
+  {
+   "name": ".",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".github",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".github/workflows",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".github/workflows/tests.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "01064436344457c77bbe4c3b007c08c04c3470daae557af1d9a8328c2d69fb19",
+   "format": 1
+  },
+  {
+   "name": ".gitignore",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "dc2188f0565ce0eb9ca97673a3e806e3481050431502ecd6c74cf35e72f70dd3",
+   "format": 1
+  },
+  {
+   "name": ".pre-commit-config.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5b8524f645e4d975919ad6307853d9ec8cc2159617bd8383394ecc329fb999e1",
+   "format": 1
+  },
+  {
+   "name": ".prettierignore",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9fc3b84c10846d1658d3cd68243fd545ada1df3decb4c25cec503e10513df793",
+   "format": 1
+  },
+  {
+   "name": ".yamllint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "827ef9e031ecdcaf137be239d33ef93fcbbc3611cbb6b30b0e507d0e03373d0e",
+   "format": 1
+  },
+  {
+   "name": "LICENSE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+   "format": 1
+  },
+  {
+   "name": "bindep.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1aa5441ef7888dcf64d764d2623b68548dad690f16a7fdae2f9d0cab1edca201",
+   "format": 1
+  },
+  {
+   "name": "changelogs",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "changelogs/config.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5bf9a08d289d2eec76ed2948123c897a2c692bda3f96b48de052af0cb4a8b474",
+   "format": 1
+  },
+  {
+   "name": "changelogs/fragments",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "changelogs/fragments/.keep",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "changelogs/changelog.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "177a57ad5042ad5a949ea49498839c32ba5be95ea2cf21e6851519a14b4f90cc",
+   "format": 1
+  },
+  {
+   "name": "cspell.config.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2f8f178f2283c35b7f5cf0d3a7078e8c5f27b8ded30b78b2a01b589d3e0d92d3",
+   "format": 1
+  },
+  {
+   "name": "meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "meta/runtime.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "55777ab8e0b3e1ebb562adb9442b08f1b70374e6d2e62edc711f596403444a50",
+   "format": 1
+  },
+  {
+   "name": "pyproject.toml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3fabace21f09ea3f72b88db830a98fa97a5c8b10872590aef05ec32a1d283656",
+   "format": 1
+  },
+  {
+   "name": "requirements.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/resource_manager",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/resource_manager/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "803ec8fde8d9e46eada3cf49693d28ba6c59a8083717703bc991df9506e27cd1",
+   "format": 1
+  },
+  {
+   "name": "roles/resource_manager/includes",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/resource_manager/includes/build.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b42d68940430c1c8f24a7e88dd808f17ca3f5f0063cf22947153014cdc338223",
+   "format": 1
+  },
+  {
+   "name": "roles/resource_manager/includes/check_drift.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9f83fc52a144b3bc72769bcf3d0c5a9e3e3ef63552a40551af8597c41989e675",
+   "format": 1
+  },
+  {
+   "name": "roles/resource_manager/includes/configure.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3fa65b9cc0bbe3d1b88aaec409244f30451b75500bc026fa950c55404538e17d",
+   "format": 1
+  },
+  {
+   "name": "roles/resource_manager/includes/edit_resource.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8718e198c6b358c8faca923a164d5416470efa844c4be82e9bcde93a167b024c",
+   "format": 1
+  },
+  {
+   "name": "roles/resource_manager/includes/unsupported_task.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "92306ec6253fa265f4bc8c4544852062ab0ed852a2315fca0223092682f1b32a",
+   "format": 1
+  },
+  {
+   "name": "roles/resource_manager/includes/deploy.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8bbb74f6e26ebce9d0b45e8bdd47644784f108a2a57ed1ccbda1cb3b4442818c",
+   "format": 1
+  },
+  {
+   "name": "roles/resource_manager/includes/write_to_file.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7557e0dedbebdac5b0d3503f973f03e3bc8ffa5b594e18ba9eb07aa3756e91a8",
+   "format": 1
+  },
+  {
+   "name": "roles/resource_manager/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/resource_manager/tasks/configure.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5c755c4c48b2026f2d8e9853ed9f80989d2e0219290d0dfa26230203336b0737",
+   "format": 1
+  },
+  {
+   "name": "roles/resource_manager/tasks/deploy.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "58417656cf5c52e504fcb9377e786d0306bcd96f72b682af850e96cb63c24f90",
+   "format": 1
+  },
+  {
+   "name": "roles/resource_manager/tasks/detect.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ca349018aff992cecdbda5ba4bb00a9645fddf62f5f38f7b935bea218745f558",
+   "format": 1
+  },
+  {
+   "name": "roles/resource_manager/tasks/gather.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "228162e7705e0ae3cff338d5ecaa4fc0d2071d43934996ecc7a4a99b77f5059f",
+   "format": 1
+  },
+  {
+   "name": "roles/resource_manager/tasks/list.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cee10b964adc2f0d162cb8ea4a892fdcf9f9dffcc0421a9bf13d6a6697be4c45",
+   "format": 1
+  },
+  {
+   "name": "roles/resource_manager/tasks/persist.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4f2849154d4c1a9edd27230c8751637c7389697c5136d1e4e0698c03a2f2a738",
+   "format": 1
+  },
+  {
+   "name": "roles/resource_manager/tasks/remediate.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "45db24671d2a5a6f90351d6c46a9ecf588ed1fdaef6344d0d25c14c100534ca4",
+   "format": 1
+  },
+  {
+   "name": "roles/resource_manager/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "873cafd96d7724a0759f96fb8e0d375a94cbea4f3c5a5dd708be3d381e41307e",
+   "format": 1
+  },
+  {
+   "name": "test-requirements.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "252dc496236f786a9c503a0e569eff6990316b93d55bd58bf4a34cde2404c59a",
+   "format": 1
+  },
+  {
+   "name": "tox.ini",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9039261a0f29438fd967a63979a9d2dd8fadd3632bc775a7ff98ca2c6a8a7f4a",
+   "format": 1
+  },
+  {
+   "name": "CHANGELOG.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1c2462eaddc1085310493a2b8636b58bda3cfb2474fab61cc12c1b0bb831ec07",
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7844b3a3bbfb38c2578421c20befb375284030efe8422eeaf23f4b16fa537dc8",
+   "format": 1
+  }
+ ],
+ "format": 1
+}

@@ -1,0 +1,9 @@
+---
+ospfv2:
+  processes:
+    - network:
+        - address: 172.25.250.0
+          area: '0'
+          wildcard_bits: 0.0.0.255
+      process_id: 110
+      router_id: 1.1.1.1

@@ -1,0 +1,427 @@
+{
+    "plays": [
+        {
+            "__play_name": "Back up managed network node configurations",
+            "name": "Back up managed network node configurations",
+            "pattern": "junos,ios",
+            "play": "Back up managed network node configurations",
+            "play_pattern": "junos,ios",
+            "play_uuid": "5aadef3a-9101-07a6-694f-000000000005",
+            "playbook": "/home/student/simplify-roles/net_backup.yml",
+            "playbook_uuid": "1beb5a77-e653-4b67-9fe3-1a05d8304332",
+            "tasks": [
+                {
+                    "__changed": false,
+                    "__duration": "0s",
+                    "__host": "junos1.lab.example.com",
+                    "__number": 0,
+                    "__result": "Ok",
+                    "__task": "Backup network managed node configurations",
+                    "__task_action": "ansible.builtin.include_role",
+                    "duration": 0.065891,
+                    "end": "2024-12-12T10:54:05.052919",
+                    "event_loop": null,
+                    "host": "junos1.lab.example.com",
+                    "play": "Back up managed network node configurations",
+                    "play_pattern": "junos,ios",
+                    "play_uuid": "5aadef3a-9101-07a6-694f-000000000005",
+                    "playbook": "/home/student/simplify-roles/net_backup.yml",
+                    "playbook_uuid": "1beb5a77-e653-4b67-9fe3-1a05d8304332",
+                    "remote_addr": "junos1.lab.example.com",
+                    "res": {
+                        "changed": false,
+                        "include_args": {
+                            "name": "net_backup"
+                        }
+                    },
+                    "resolved_action": null,
+                    "start": "2024-12-12T10:54:04.987028",
+                    "task": "Backup network managed node configurations",
+                    "task_action": "ansible.builtin.include_role",
+                    "task_args": "",
+                    "task_path": "/home/student/simplify-roles/net_backup.yml:8",
+                    "task_uuid": "5aadef3a-9101-07a6-694f-000000000007",
+                    "uuid": "e948b643-0c8c-4c24-95e0-ed5437f4ddb4"
+                },
+                {
+                    "__changed": false,
+                    "__duration": "0s",
+                    "__host": "junos2.lab.example.com",
+                    "__number": 1,
+                    "__result": "Ok",
+                    "__task": "Backup network managed node configurations",
+                    "__task_action": "ansible.builtin.include_role",
+                    "duration": 0.081174,
+                    "end": "2024-12-12T10:54:05.081042",
+                    "event_loop": null,
+                    "host": "junos2.lab.example.com",
+                    "play": "Back up managed network node configurations",
+                    "play_pattern": "junos,ios",
+                    "play_uuid": "5aadef3a-9101-07a6-694f-000000000005",
+                    "playbook": "/home/student/simplify-roles/net_backup.yml",
+                    "playbook_uuid": "1beb5a77-e653-4b67-9fe3-1a05d8304332",
+                    "remote_addr": "junos2.lab.example.com",
+                    "res": {
+                        "changed": false,
+                        "include_args": {
+                            "name": "net_backup"
+                        }
+                    },
+                    "resolved_action": null,
+                    "start": "2024-12-12T10:54:04.999868",
+                    "task": "Backup network managed node configurations",
+                    "task_action": "ansible.builtin.include_role",
+                    "task_args": "",
+                    "task_path": "/home/student/simplify-roles/net_backup.yml:8",
+                    "task_uuid": "5aadef3a-9101-07a6-694f-000000000007",
+                    "uuid": "0c75317e-cdb1-4c6c-880a-8e58bedc56fd"
+                },
+                {
+                    "__changed": false,
+                    "__duration": "0s",
+                    "__host": "iosxe1.lab.example.com",
+                    "__number": 2,
+                    "__result": "Ok",
+                    "__task": "Backup network managed node configurations",
+                    "__task_action": "ansible.builtin.include_role",
+                    "duration": 0.063827,
+                    "end": "2024-12-12T10:54:05.079844",
+                    "event_loop": null,
+                    "host": "iosxe1.lab.example.com",
+                    "play": "Back up managed network node configurations",
+                    "play_pattern": "junos,ios",
+                    "play_uuid": "5aadef3a-9101-07a6-694f-000000000005",
+                    "playbook": "/home/student/simplify-roles/net_backup.yml",
+                    "playbook_uuid": "1beb5a77-e653-4b67-9fe3-1a05d8304332",
+                    "remote_addr": "iosxe1.lab.example.com",
+                    "res": {
+                        "changed": false,
+                        "include_args": {
+                            "name": "net_backup"
+                        }
+                    },
+                    "resolved_action": null,
+                    "start": "2024-12-12T10:54:05.016017",
+                    "task": "Backup network managed node configurations",
+                    "task_action": "ansible.builtin.include_role",
+                    "task_args": "",
+                    "task_path": "/home/student/simplify-roles/net_backup.yml:8",
+                    "task_uuid": "5aadef3a-9101-07a6-694f-000000000007",
+                    "uuid": "83baf602-a62f-4d94-97f1-4efe3bfe3aa6"
+                },
+                {
+                    "__changed": false,
+                    "__duration": "0s",
+                    "__host": "iosxe2.lab.example.com",
+                    "__number": 3,
+                    "__result": "Ok",
+                    "__task": "Backup network managed node configurations",
+                    "__task_action": "ansible.builtin.include_role",
+                    "duration": 0.049637,
+                    "end": "2024-12-12T10:54:05.080590",
+                    "event_loop": null,
+                    "host": "iosxe2.lab.example.com",
+                    "play": "Back up managed network node configurations",
+                    "play_pattern": "junos,ios",
+                    "play_uuid": "5aadef3a-9101-07a6-694f-000000000005",
+                    "playbook": "/home/student/simplify-roles/net_backup.yml",
+                    "playbook_uuid": "1beb5a77-e653-4b67-9fe3-1a05d8304332",
+                    "remote_addr": "iosxe2.lab.example.com",
+                    "res": {
+                        "changed": false,
+                        "include_args": {
+                            "name": "net_backup"
+                        }
+                    },
+                    "resolved_action": null,
+                    "start": "2024-12-12T10:54:05.030953",
+                    "task": "Backup network managed node configurations",
+                    "task_action": "ansible.builtin.include_role",
+                    "task_args": "",
+                    "task_path": "/home/student/simplify-roles/net_backup.yml:8",
+                    "task_uuid": "5aadef3a-9101-07a6-694f-000000000007",
+                    "uuid": "5af66f74-2e78-4016-b069-f201bad6dc4d"
+                },
+                {
+                    "__changed": false,
+                    "__duration": "0s",
+                    "__host": "junos1.lab.example.com",
+                    "__number": 4,
+                    "__result": "Failed",
+                    "__task": "Backup network device configs",
+                    "__task_action": "ansible.builtin.include_tasks",
+                    "duration": 0.071339,
+                    "end": "2024-12-12T10:54:05.187984",
+                    "event_loop": null,
+                    "host": "junos1.lab.example.com",
+                    "ignore_errors": null,
+                    "play": "Back up managed network node configurations",
+                    "play_pattern": "junos,ios",
+                    "play_uuid": "5aadef3a-9101-07a6-694f-000000000005",
+                    "playbook": "/home/student/simplify-roles/net_backup.yml",
+                    "playbook_uuid": "1beb5a77-e653-4b67-9fe3-1a05d8304332",
+                    "remote_addr": "junos1.lab.example.com",
+                    "res": {
+                        "_ansible_no_log": false,
+                        "msg": "'split' is undefined. 'split' is undefined"
+                    },
+                    "resolved_action": null,
+                    "role": "net_backup",
+                    "start": "2024-12-12T10:54:05.116645",
+                    "task": "Backup network device configs",
+                    "task_action": "ansible.builtin.include_tasks",
+                    "task_args": "",
+                    "task_path": "/home/student/simplify-roles/roles/net_backup/tasks/main.yml:3",
+                    "task_uuid": "5aadef3a-9101-07a6-694f-000000000032",
+                    "uuid": "d349b46f-eb16-4959-a746-861ab1535b97"
+                },
+                {
+                    "__changed": false,
+                    "__duration": "0s",
+                    "__host": "junos2.lab.example.com",
+                    "__number": 5,
+                    "__result": "Failed",
+                    "__task": "Backup network device configs",
+                    "__task_action": "ansible.builtin.include_tasks",
+                    "duration": 0.061548,
+                    "end": "2024-12-12T10:54:05.191416",
+                    "event_loop": null,
+                    "host": "junos2.lab.example.com",
+                    "ignore_errors": null,
+                    "play": "Back up managed network node configurations",
+                    "play_pattern": "junos,ios",
+                    "play_uuid": "5aadef3a-9101-07a6-694f-000000000005",
+                    "playbook": "/home/student/simplify-roles/net_backup.yml",
+                    "playbook_uuid": "1beb5a77-e653-4b67-9fe3-1a05d8304332",
+                    "remote_addr": "junos2.lab.example.com",
+                    "res": {
+                        "_ansible_no_log": false,
+                        "msg": "'split' is undefined. 'split' is undefined"
+                    },
+                    "resolved_action": null,
+                    "role": "net_backup",
+                    "start": "2024-12-12T10:54:05.129868",
+                    "task": "Backup network device configs",
+                    "task_action": "ansible.builtin.include_tasks",
+                    "task_args": "",
+                    "task_path": "/home/student/simplify-roles/roles/net_backup/tasks/main.yml:3",
+                    "task_uuid": "5aadef3a-9101-07a6-694f-000000000032",
+                    "uuid": "8c79ccdd-d3aa-4b91-8266-e7edcb82ff77"
+                },
+                {
+                    "__changed": false,
+                    "__duration": "0s",
+                    "__host": "iosxe1.lab.example.com",
+                    "__number": 6,
+                    "__result": "Failed",
+                    "__task": "Backup network device configs",
+                    "__task_action": "ansible.builtin.include_tasks",
+                    "duration": 0.049092,
+                    "end": "2024-12-12T10:54:05.192271",
+                    "event_loop": null,
+                    "host": "iosxe1.lab.example.com",
+                    "ignore_errors": null,
+                    "play": "Back up managed network node configurations",
+                    "play_pattern": "junos,ios",
+                    "play_uuid": "5aadef3a-9101-07a6-694f-000000000005",
+                    "playbook": "/home/student/simplify-roles/net_backup.yml",
+                    "playbook_uuid": "1beb5a77-e653-4b67-9fe3-1a05d8304332",
+                    "remote_addr": "iosxe1.lab.example.com",
+                    "res": {
+                        "_ansible_no_log": false,
+                        "msg": "'split' is undefined. 'split' is undefined"
+                    },
+                    "resolved_action": null,
+                    "role": "net_backup",
+                    "start": "2024-12-12T10:54:05.143179",
+                    "task": "Backup network device configs",
+                    "task_action": "ansible.builtin.include_tasks",
+                    "task_args": "",
+                    "task_path": "/home/student/simplify-roles/roles/net_backup/tasks/main.yml:3",
+                    "task_uuid": "5aadef3a-9101-07a6-694f-000000000032",
+                    "uuid": "b9253e2d-59af-4550-a091-c0901bf8afc0"
+                },
+                {
+                    "__changed": false,
+                    "__duration": "0s",
+                    "__host": "iosxe2.lab.example.com",
+                    "__number": 7,
+                    "__result": "Failed",
+                    "__task": "Backup network device configs",
+                    "__task_action": "ansible.builtin.include_tasks",
+                    "duration": 0.031951,
+                    "end": "2024-12-12T10:54:05.213295",
+                    "event_loop": null,
+                    "host": "iosxe2.lab.example.com",
+                    "ignore_errors": null,
+                    "play": "Back up managed network node configurations",
+                    "play_pattern": "junos,ios",
+                    "play_uuid": "5aadef3a-9101-07a6-694f-000000000005",
+                    "playbook": "/home/student/simplify-roles/net_backup.yml",
+                    "playbook_uuid": "1beb5a77-e653-4b67-9fe3-1a05d8304332",
+                    "remote_addr": "iosxe2.lab.example.com",
+                    "res": {
+                        "_ansible_no_log": false,
+                        "msg": "'split' is undefined. 'split' is undefined"
+                    },
+                    "resolved_action": null,
+                    "role": "net_backup",
+                    "start": "2024-12-12T10:54:05.181344",
+                    "task": "Backup network device configs",
+                    "task_action": "ansible.builtin.include_tasks",
+                    "task_args": "",
+                    "task_path": "/home/student/simplify-roles/roles/net_backup/tasks/main.yml:3",
+                    "task_uuid": "5aadef3a-9101-07a6-694f-000000000032",
+                    "uuid": "9b5e2aee-135d-4a46-ab77-cfbd84dd91ff"
+                }
+            ],
+            "uuid": "5aadef3a-9101-07a6-694f-000000000005"
+        }
+    ],
+    "settings_entries": {
+        "ansible-navigator": {
+            "ansible": {
+                "config": {
+                    "help": false
+                },
+                "doc": {
+                    "help": false,
+                    "plugin": {
+                        "type": "module"
+                    }
+                },
+                "inventory": {
+                    "entries": [
+                        "/home/student/simplify-roles/inventory"
+                    ],
+                    "help": false
+                },
+                "playbook": {
+                    "help": false,
+                    "path": "/home/student/simplify-roles/net_backup.yml"
+                }
+            },
+            "ansible-builder": {
+                "help": false,
+                "workdir": "/home/student/simplify-roles"
+            },
+            "app": "run",
+            "collection-doc-cache-path": "/home/student/.cache/ansible-navigator/collection_doc_cache.db",
+            "color": {
+                "enable": true,
+                "osc4": true
+            },
+            "editor": {
+                "command": "vi +{line_number} {filename}",
+                "console": true
+            },
+            "exec": {
+                "command": "/bin/bash",
+                "shell": true
+            },
+            "execution-environment": {
+                "container-engine": "podman",
+                "enabled": true,
+                "image": "hub.lab.example.com/ee-supported-rhel8:latest",
+                "pull": {
+                    "policy": "missing"
+                }
+            },
+            "images": {
+                "details": [
+                    "everything"
+                ]
+            },
+            "logging": {
+                "append": true,
+                "file": "/home/student/simplify-roles/ansible-navigator.log",
+                "level": "warning"
+            },
+            "mode": "stdout",
+            "playbook-artifact": {
+                "enable": true,
+                "save-as": "{playbook_dir}/{playbook_name}-artifact-{time_stamp}.json"
+            },
+            "settings": {
+                "effective": false,
+                "sample": false,
+                "schema": "json",
+                "sources": false
+            },
+            "time-zone": "UTC"
+        }
+    },
+    "settings_sources": {
+        "ansible-navigator.ansible-builder.help": "Defaults",
+        "ansible-navigator.ansible-builder.workdir": "Defaults",
+        "ansible-navigator.ansible-lint.config": "Not set",
+        "ansible-navigator.ansible-lint.lintables": "Not set",
+        "ansible-navigator.ansible-runner.artifact-dir": "Not set",
+        "ansible-navigator.ansible-runner.rotate-artifacts-count": "Not set",
+        "ansible-navigator.ansible-runner.timeout": "Not set",
+        "ansible-navigator.ansible.cmdline": "Not set",
+        "ansible-navigator.ansible.config.help": "Defaults",
+        "ansible-navigator.ansible.config.path": "Not set",
+        "ansible-navigator.ansible.doc.help": "Defaults",
+        "ansible-navigator.ansible.doc.plugin.name": "Not set",
+        "ansible-navigator.ansible.doc.plugin.type": "Defaults",
+        "ansible-navigator.ansible.inventory.entries": "Settings file",
+        "ansible-navigator.ansible.inventory.help": "Defaults",
+        "ansible-navigator.ansible.playbook.help": "Defaults",
+        "ansible-navigator.ansible.playbook.path": "Command line",
+        "ansible-navigator.app": "Command line",
+        "ansible-navigator.collection-doc-cache-path": "Defaults",
+        "ansible-navigator.color.enable": "Defaults",
+        "ansible-navigator.color.osc4": "Defaults",
+        "ansible-navigator.editor.command": "Defaults",
+        "ansible-navigator.editor.console": "Defaults",
+        "ansible-navigator.exec.command": "Defaults",
+        "ansible-navigator.exec.shell": "Defaults",
+        "ansible-navigator.execution-environment.container-engine": "Automatically determined",
+        "ansible-navigator.execution-environment.container-options": "Not set",
+        "ansible-navigator.execution-environment.enabled": "Defaults",
+        "ansible-navigator.execution-environment.environment-variables.pass": "Not set",
+        "ansible-navigator.execution-environment.environment-variables.set": "Not set",
+        "ansible-navigator.execution-environment.image": "Settings file",
+        "ansible-navigator.execution-environment.pull.arguments": "Not set",
+        "ansible-navigator.execution-environment.pull.policy": "Settings file",
+        "ansible-navigator.execution-environment.volume-mounts": "Not set",
+        "ansible-navigator.images.details": "Defaults",
+        "ansible-navigator.inventory-columns": "Not set",
+        "ansible-navigator.logging.append": "Defaults",
+        "ansible-navigator.logging.file": "Defaults",
+        "ansible-navigator.logging.level": "Defaults",
+        "ansible-navigator.mode": "Settings file",
+        "ansible-navigator.playbook-artifact.enable": "Settings file",
+        "ansible-navigator.playbook-artifact.replay": "Not set",
+        "ansible-navigator.playbook-artifact.save-as": "Defaults",
+        "ansible-navigator.settings.effective": "Defaults",
+        "ansible-navigator.settings.sample": "Defaults",
+        "ansible-navigator.settings.schema": "Defaults",
+        "ansible-navigator.settings.sources": "Defaults",
+        "ansible-navigator.time-zone": "Defaults",
+        "settings_file_path": "/home/student/simplify-roles/ansible-navigator.yml",
+        "settings_file_source": "Search path"
+    },
+    "status": "failed",
+    "status_color": 9,
+    "stdout": [
+        "",
+        "PLAY [Back up managed network node configurations] *****************************",
+        "",
+        "TASK [Backup network managed node configurations] ******************************",
+        "",
+        "TASK [net_backup : Backup network device configs] ******************************",
+        "\u001b[0;31mfatal: [junos1.lab.example.com]: FAILED! => {\"msg\": \"'split' is undefined. 'split' is undefined\"}\u001b[0m",
+        "\u001b[0;31mfatal: [junos2.lab.example.com]: FAILED! => {\"msg\": \"'split' is undefined. 'split' is undefined\"}\u001b[0m",
+        "\u001b[0;31mfatal: [iosxe1.lab.example.com]: FAILED! => {\"msg\": \"'split' is undefined. 'split' is undefined\"}\u001b[0m",
+        "\u001b[0;31mfatal: [iosxe2.lab.example.com]: FAILED! => {\"msg\": \"'split' is undefined. 'split' is undefined\"}\u001b[0m",
+        "",
+        "PLAY RECAP *********************************************************************",
+        "\u001b[0;31miosxe1.lab.example.com\u001b[0m     : ok=0    changed=0    unreachable=0    \u001b[0;31mfailed=1   \u001b[0m skipped=0    rescued=0    ignored=0   ",
+        "\u001b[0;31miosxe2.lab.example.com\u001b[0m     : ok=0    changed=0    unreachable=0    \u001b[0;31mfailed=1   \u001b[0m skipped=0    rescued=0    ignored=0   ",
+        "\u001b[0;31mjunos1.lab.example.com\u001b[0m     : ok=0    changed=0    unreachable=0    \u001b[0;31mfailed=1   \u001b[0m skipped=0    rescued=0    ignored=0   ",
+        "\u001b[0;31mjunos2.lab.example.com\u001b[0m     : ok=0    changed=0    unreachable=0    \u001b[0;31mfailed=1   \u001b[0m skipped=0    rescued=0    ignored=0   "
+    ],
+    "version": "2.0.0"
+}

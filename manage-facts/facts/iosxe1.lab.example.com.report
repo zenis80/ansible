@@ -1,0 +1,34 @@
+Hostname: iosxe1.lab.example.com
+Model: C8000V
+Version: 17.06.02
+l3_interfaces:
+- ipv4:
+  - address: 172.25.250.20/24
+  name: GigabitEthernet1
+- name: GigabitEthernet2
+vlans:
+- mtu: 1500
+  name: default
+  shutdown: disabled
+  state: active
+  vlan_id: 1
+- mtu: 1500
+  name: fddi-default
+  shutdown: enabled
+  state: active
+  vlan_id: 1002
+- mtu: 1500
+  name: token-ring-default
+  shutdown: enabled
+  state: active
+  vlan_id: 1003
+- mtu: 1500
+  name: fddinet-default
+  shutdown: enabled
+  state: active
+  vlan_id: 1004
+- mtu: 1500
+  name: trnet-default
+  shutdown: enabled
+  state: active
+  vlan_id: 1005

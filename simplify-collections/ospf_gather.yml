@@ -1,0 +1,12 @@
+---
+- name: Gather OSPF Configuration
+  hosts: ios
+  gather_facts: false
+  tasks:
+  - name: OSPF Manager (gather)
+    ansible.builtin.include_role:
+      name: network.ospf.run
+    vars:
+      actions:
+        - name: gather
+      inventory_directory: ./

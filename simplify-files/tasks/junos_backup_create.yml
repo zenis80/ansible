@@ -1,0 +1,10 @@
+---
+-  name: Crea backup
+   junipernetworks.junos.junos_config:
+     backup: true
+   register: create_file
+
+-  name: Mostra crea file        
+   ansible.builtin.debug:
+     var: create_file
+

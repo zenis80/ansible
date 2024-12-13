@@ -1,0 +1,31 @@
+{
+ "collection_info": {
+  "namespace": "network",
+  "name": "base",
+  "version": "2.0.0",
+  "authors": [
+   "Rohit Thakur (@rohitthakur2590)"
+  ],
+  "readme": "README.md",
+  "tags": [],
+  "description": "Ansible Network Collection provides platform-agnostic resource management for given network OS.",
+  "license": [],
+  "license_file": "LICENSE",
+  "dependencies": {
+   "ansible.netcommon": "*",
+   "ansible.utils": "*"
+  },
+  "repository": "https://github.com/redhat-cop/network.base",
+  "documentation": null,
+  "homepage": null,
+  "issues": "https://github.com/redhat-cop/network.base/issues"
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "d305e3e6166f37171d3177539060b4f9f45019c1c01138e32dfcd130a74c8eec",
+  "format": 1
+ },
+ "format": 1
+}

@@ -1,0 +1,17 @@
+---
+- name: Create the backup file
+  cisco.ios.ios_config:
+    backup: true
+  register: create_file
+
+- name: Show create_file
+  ansible.builtin.debug:
+    var: create_file
+    verbosity: 1
+
+- name: Create or update the 'latest' link
+  ansible.builtin.file:
+    path: "{{ create_file['shortname'] }}.latest"
+    src: "{{ create_file['filename'] }}"
+    state: link
+    force: true

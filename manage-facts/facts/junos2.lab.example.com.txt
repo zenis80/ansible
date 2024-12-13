@@ -1,0 +1,303 @@
+net_api: netconf
+net_config: "## Last changed: 2024-12-10 09:02:50 UTC\nversion 23.1R1.8;\nsystem {\n
+    \   host-name junos2.lab.example.com;\n    root-authentication {\n        encrypted-password
+    \"$6$5TiPJaqE$929rhpem1O3HigTCPHZTuyg4wV.IeFK2ZFWBOQG9syw.AS50/FEHTiXmzJ1sB5ZPppRKXilY8.gXQW4e8z.yP.\";\n
+    \   }\n    login {\n        user student {\n            uid 2000;\n            class
+    super-user;\n            authentication {\n                encrypted-password
+    \"$6$uhrNkhjY$uxTi.jfRyZ9dKSxiF5zAJnR3BZtj7GY571tUXf8/tKmAQMM6M5NjT00Dq/uowMKtQkXvQgjgVHKRkh4NsIKkb/\";\n
+    \               ssh-rsa \"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDGtUW3ismHyuCW4CDdTVOOOq6aySdtYenXFWWx7HJa4VTepkG00aaLId9ocra10hc+MB0GTJMCyabDv3i8NKdi6GDH/aOLVsp/Ewy8DEzZMBlJDCt4v2i4/wU4liw6KgEFkZs+5hnqU8d4QzldyGJ5onr+AGvFOKG68CS0BBl40Z1twf1HhCyx8k6nzD2ovlkxWRFZKPAFrtPCBVvQDkOfVFZF+lwzaSztgAjbFZ4A9jqQyUYx4kOJ5DtRef36ucdUdVQale0+8lICl7/gb142SPpYfhxe88/BJScLPRjvVNeu1TxRmoHtVazqnAoRxQYAn2MoI6AG+w6QuZf8f7aL
+    LabGradingKey\";\n            }\n        }\n    }\n    services {\n        ssh
+    {\n            root-login allow;\n        }\n        netconf {\n            ssh
+    {\n                port 830;\n            }\n        }\n    }\n    name-server
+    {\n        172.25.250.220;\n    }\n    syslog {\n        file interactive-commands
+    {\n            interactive-commands any;\n        }\n        file messages {\n
+    \           any notice;\n            authorization info;\n        }\n    }\n    processes
+    {\n        dhcp-service {\n            traceoptions {\n                file dhcp_logfile
+    size 10m;\n                level all;\n                flag packet;\n            }\n
+    \       }\n    }\n}\ninterfaces {\n    fxp0 {\n        unit 0 {\n            family
+    inet {\n                address 172.25.250.23/24;\n            }\n            family
+    inet6 {\n                dhcpv6-client {\n                    client-type stateful;\n
+    \                   client-ia-type ia-na;\n                    client-identifier
+    duid-type duid-ll;\n                    vendor-id Juniper:vmx:VM646556090A;\n
+    \               }\n            }\n        }\n    }\n}\nrouting-options {\n    static
+    {\n        route 0.0.0.0/0 next-hop 172.25.250.254;\n    }\n}\nprotocols {\n    router-advertisement
+    {\n        interface fxp0.0 {\n            managed-configuration;\n        }\n
+    \   }\n}"
+net_filesystems:
+- /dev/gpt/junos
+- tmpfs
+- tmpfs
+net_gather_network_resources: []
+net_gather_subset:
+- interfaces
+- hardware
+- default
+- config
+net_has_2RE: false
+net_hostname: junos2.lab.example.com
+net_interfaces:
+    .local.:
+        admin-status: up
+        macaddress: Unspecified
+        mtu: Unlimited
+        oper-status: up
+        speed: Unlimited
+        type: Loopback
+    cbp0:
+        admin-status: up
+        macaddress: 2c:6b:f5:59:c4:11
+        mtu: '9192'
+        oper-status: up
+        speed: Unspecified
+        type: Ethernet
+    demux0:
+        admin-status: up
+        macaddress: Unspecified
+        mtu: '9192'
+        oper-status: up
+        speed: Unspecified
+        type: Software-Pseudo
+    dsc:
+        admin-status: up
+        macaddress: Unspecified
+        mtu: Unlimited
+        oper-status: up
+        speed: Unspecified
+        type: Software-Pseudo
+    em1:
+        admin-status: up
+        macaddress: 52:54:00:12:bd:fe
+        mtu: '1514'
+        oper-status: up
+        speed: 10Gbps
+        type: Ethernet
+    esi:
+        admin-status: up
+        macaddress: Unspecified
+        mtu: Unlimited
+        oper-status: up
+        speed: Unlimited
+        type: Software-Pseudo
+    fti0:
+        admin-status: up
+        macaddress: Unspecified
+        mtu: Unlimited
+        oper-status: up
+        speed: Unlimited
+        type: FTI
+    fti1:
+        admin-status: up
+        macaddress: Unspecified
+        mtu: Unlimited
+        oper-status: up
+        speed: Unlimited
+        type: FTI
+    fti2:
+        admin-status: up
+        macaddress: Unspecified
+        mtu: Unlimited
+        oper-status: up
+        speed: Unlimited
+        type: FTI
+    fti3:
+        admin-status: up
+        macaddress: Unspecified
+        mtu: Unlimited
+        oper-status: up
+        speed: Unlimited
+        type: FTI
+    fti4:
+        admin-status: up
+        macaddress: Unspecified
+        mtu: Unlimited
+        oper-status: up
+        speed: Unlimited
+        type: FTI
+    fti5:
+        admin-status: up
+        macaddress: Unspecified
+        mtu: Unlimited
+        oper-status: up
+        speed: Unlimited
+        type: FTI
+    fti6:
+        admin-status: up
+        macaddress: Unspecified
+        mtu: Unlimited
+        oper-status: up
+        speed: Unlimited
+        type: FTI
+    fti7:
+        admin-status: up
+        macaddress: Unspecified
+        mtu: Unlimited
+        oper-status: up
+        speed: Unlimited
+        type: FTI
+    fxp0:
+        admin-status: up
+        macaddress: 52:54:00:df:bb:e8
+        mtu: '1514'
+        oper-status: up
+        speed: 10Gbps
+        type: Ethernet
+    gre:
+        admin-status: up
+        macaddress: null
+        mtu: Unlimited
+        oper-status: up
+        speed: Unlimited
+        type: GRE
+    ipip:
+        admin-status: up
+        macaddress: null
+        mtu: Unlimited
+        oper-status: up
+        speed: Unlimited
+        type: IPIP
+    irb:
+        admin-status: up
+        macaddress: 2c:6b:f5:59:cb:f0
+        mtu: '1514'
+        oper-status: up
+        speed: Unspecified
+        type: Ethernet
+    jsrv:
+        admin-status: up
+        macaddress: 00:00:00:00:00:00
+        mtu: '1514'
+        oper-status: up
+        speed: Unspecified
+        type: Ethernet
+    lo0:
+        admin-status: up
+        macaddress: Unspecified
+        mtu: Unlimited
+        oper-status: up
+        speed: Unspecified
+        type: Loopback
+    lsi:
+        admin-status: up
+        macaddress: Unspecified
+        mtu: Unlimited
+        oper-status: up
+        speed: Unlimited
+        type: Software-Pseudo
+    mif:
+        admin-status: up
+        macaddress: Unspecified
+        mtu: '1440'
+        oper-status: up
+        speed: Unspecified
+        type: Software-Pseudo
+    mtun:
+        admin-status: up
+        macaddress: null
+        mtu: Unlimited
+        oper-status: up
+        speed: Unlimited
+        type: Multicast-GRE
+    pimd:
+        admin-status: up
+        macaddress: null
+        mtu: Unlimited
+        oper-status: up
+        speed: Unlimited
+        type: PIMD
+    pime:
+        admin-status: up
+        macaddress: null
+        mtu: Unlimited
+        oper-status: up
+        speed: Unlimited
+        type: PIME
+    pip0:
+        admin-status: up
+        macaddress: 2c:6b:f5:59:cb:b0
+        mtu: '9192'
+        oper-status: up
+        speed: Unspecified
+        type: Ethernet
+    pp0:
+        admin-status: up
+        macaddress: Unspecified
+        mtu: '1532'
+        oper-status: up
+        speed: Unspecified
+        type: PPPoE
+    rbeb:
+        admin-status: up
+        macaddress: Unspecified
+        mtu: Unlimited
+        oper-status: up
+        speed: Unlimited
+        type: Software-Pseudo
+    tap:
+        admin-status: up
+        macaddress: Unspecified
+        mtu: Unlimited
+        oper-status: up
+        speed: Unlimited
+        type: Software-Pseudo
+    vtep:
+        admin-status: up
+        macaddress: Unspecified
+        mtu: Unlimited
+        oper-status: up
+        speed: Unlimited
+        type: Software-Pseudo
+net_memfree_mb: 47552
+net_memtotal_mb: 2040408
+net_model: vmx
+net_modules:
+-   name: Midplane
+-   description: RE-VMX
+    name: Routing Engine 0
+-   description: VMX SCB
+    name: CB 0
+-   chassis_sub_module: null
+    description: Virtual FPC
+    name: FPC 0
+    part_number: BUILTIN
+    serial_number: BUILTIN
+net_python_version: 3.9.13
+net_routing_engines:
+    '0':
+        cpu_background: '0'
+        cpu_background1: '0'
+        cpu_background2: '0'
+        cpu_background3: '0'
+        cpu_idle: '91'
+        cpu_idle1: '91'
+        cpu_idle2: '91'
+        cpu_idle3: '91'
+        cpu_interrupt: '3'
+        cpu_interrupt1: '3'
+        cpu_interrupt2: '3'
+        cpu_interrupt3: '3'
+        cpu_system: '4'
+        cpu_system1: '4'
+        cpu_system2: '4'
+        cpu_system3: '4'
+        cpu_user: '2'
+        cpu_user1: '2'
+        cpu_user2: '2'
+        cpu_user3: '2'
+        last_reboot_reason: Router rebooted after a normal shutdown.
+        load_average_fifteen: '0.92'
+        load_average_five: '0.98'
+        load_average_one: '0.91'
+        mastership_priority: master (default)
+        mastership_state: master
+        memory_buffer_utilization: '13'
+        memory_dram_size: 1993 MB
+        memory_installed_size: (2048 MB installed)
+        model: RE-VMX
+        slot: '0'
+        start_time: 2024-12-06 07:46:04 UTC
+        status: OK
+        up_time: 5 days, 1 hour, 15 minutes, 45 seconds
+net_serialnum: VM646556090A
+net_system: junos
+net_version: 23.1R1.8
+network_resources: {}

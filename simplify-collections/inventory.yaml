@@ -1,0 +1,11 @@
+all:
+  children:
+    ios:
+      hosts:
+        iosxe1.lab.example.com:
+        iosxe2.lab.example.com:
+    junos:
+      hosts:
+        junos1.lab.example.com:
+        junos2.lab.example.com:
+    ungrouped: {}

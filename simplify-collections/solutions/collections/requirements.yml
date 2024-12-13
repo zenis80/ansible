@@ -1,0 +1,6 @@
+---
+collections:
+  - name: network.ospf
+    version: 1.0.0
+  - name: network.base
+    version: 2.0.0

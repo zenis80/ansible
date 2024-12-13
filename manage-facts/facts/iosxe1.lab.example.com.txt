@@ -1,0 +1,127 @@
+net_all_ipv4_addresses:
+- 172.25.250.20
+net_all_ipv6_addresses: []
+net_api: cliconf
+net_config: "Building configuration...\n\nCurrent configuration : 6074 bytes\n!\n!
+    Last configuration change at 12:23:10 UTC Tue Dec 10 2024 by student\n!\nversion
+    17.6\nservice timestamps debug datetime msec\nservice timestamps log datetime
+    msec localtime show-timezone year\nservice password-encryption\nservice call-home\nplatform
+    qfp utilization monitor load 80\nplatform punt-keepalive disable-kernel-core\nplatform
+    console virtual\n!\nhostname iosxe1.lab.example.com\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno
+    logging console\nenable secret 9 $9$OyrQx5TJ23sDpU$C/4r2.9.qQFdFJpHZZnikwVeeXrcjKuWCTOiWjOC.jY\nenable
+    password 7 010012115F0E081B\n!\nno aaa new-model\n!\n!\n!\n!\n!\n!\n!\nip name-server
+    172.25.250.220\nip domain name lab.example.com\n!\n!\n!\nlogin on-success log\n!\n!\n!\n!\n!\n!\n!\nsubscriber
+    templating\n!\nmultilink bundle-name authenticated\n!\n!\n!\ncrypto pki trustpoint
+    TP-self-signed-3363064935\n enrollment selfsigned\n subject-name cn=IOS-Self-Signed-Certificate-3363064935\n
+    revocation-check none\n rsakeypair TP-self-signed-3363064935\n!\ncrypto pki trustpoint
+    SLA-TrustPoint\n enrollment terminal\n revocation-check crl\n!\n!\ncrypto pki
+    certificate chain TP-self-signed-3363064935\n certificate self-signed 01\n  30820330
+    30820218 A0030201 02020101 300D0609 2A864886 F70D0101 05050030 \n  31312F30 2D060355
+    04031326 494F532D 53656C66 2D536967 6E65642D 43657274 \n  69666963 6174652D 33333633
+    30363439 3335301E 170D3233 30333238 30323232 \n  33325A17 0D333330 33323730 32323233
+    325A3031 312F302D 06035504 03132649 \n  4F532D53 656C662D 5369676E 65642D43 65727469
+    66696361 74652D33 33363330 \n  36343933 35308201 22300D06 092A8648 86F70D01 01010500
+    0382010F 00308201 \n  0A028201 0100C411 9370B6FA 66895B87 23F2B95D E0AB0A67 A331E9A0
+    C1FA35AC \n  7E55F885 F258B96D 0AE056D6 7967F6A6 41F15909 B1E6C6A3 EEB9FB4D 06CC4AFE
+    \n  28ECAE57 2E064536 54C4B0F8 C4B5FCE1 2135DBE8 3BD4F1F7 9754E81C 56D77D7E \n
+    \ 63C2ABC2 6E62AFBC 98B39F4A 7F6D21F7 33C33048 B39881AA 0A3D3D73 3E02A70A \n  5B610CF5
+    18F239DF 042E1933 99E886C6 AACBD5A6 BB5F30FB F977D775 91BD1190 \n  87DF7261 D7B01A85
+    7F93FB85 CD04ECD9 E7936E7A 1E44DA80 8A249C96 188DE2B8 \n  E7DFB96F 9274B493 13B1D73F
+    CFEB256C 532F7277 4D1C7D84 EBFC8130 91EFDF3B \n  B1343723 BB9E67D8 0932D241 E7F4093F
+    BFE663C8 F235FC61 CB037C69 5AFFF512 \n  2F82407B 46DD0203 010001A3 53305130 0F060355
+    1D130101 FF040530 030101FF \n  301F0603 551D2304 18301680 14F80A56 6B19E402 FB235559
+    5A45372B 5774BF99 \n  0D301D06 03551D0E 04160414 F80A566B 19E402FB 2355595A 45372B57
+    74BF990D \n  300D0609 2A864886 F70D0101 05050003 82010100 B076F71E 390C79A1 EEC3618B
+    \n  25A9A151 E8C26520 0BC35BE3 5B4B83A1 29054F68 BFE8BA08 8801C1E4 6FCB92FF \n
+    \ 180FC195 94155F2C 66B0CFA7 F6901343 5886B1BB 1BBF0DC1 F38090E9 1F2E7936 \n  E8CF4898
+    47DD6175 D007F887 E5EACE83 6B26B345 3A86B80B BA35F240 B8DBD51E \n  42B6AE1D 5897506D
+    14362E84 4546A809 8F3969F6 D43EB7A5 7F7DDC03 83FF8B9F \n  7E3965DE 60C2AFAD 540BE3D8
+    C748A95E 4AF7D502 78C2B282 23EEBA9F 16ACD029 \n  61C9BE5A 39668A9D E8116113 7176038F
+    A9A984D9 C1E9E275 639BB880 69D3FA46 \n  26D8A9FB 622306A5 D2678D2C 4C92DE4B 5D3563F0
+    8EC80761 005A61DF 0C079567 \n  7D7ABBC4 D774244F 638DA957 0E95D387 D8650BC3\n
+    \ \tquit\ncrypto pki certificate chain SLA-TrustPoint\n certificate ca 01\n  30820321
+    30820209 A0030201 02020101 300D0609 2A864886 F70D0101 0B050030 \n  32310E30 0C060355
+    040A1305 43697363 6F312030 1E060355 04031317 43697363 \n  6F204C69 63656E73 696E6720
+    526F6F74 20434130 1E170D31 33303533 30313934 \n  3834375A 170D3338 30353330 31393438
+    34375A30 32310E30 0C060355 040A1305 \n  43697363 6F312030 1E060355 04031317 43697363
+    6F204C69 63656E73 696E6720 \n  526F6F74 20434130 82012230 0D06092A 864886F7 0D010101
+    05000382 010F0030 \n  82010A02 82010100 A6BCBD96 131E05F7 145EA72C 2CD686E6 17222EA1
+    F1EFF64D \n  CBB4C798 212AA147 C655D8D7 9471380D 8711441E 1AAF071A 9CAE6388 8A38E520
+    \n  1C394D78 462EF239 C659F715 B98C0A59 5BBB5CBD 0CFEBEA3 700A8BF7 D8F256EE \n
+    \ 4AA4E80D DB6FD1C9 60B1FD18 FFC69C96 6FA68957 A2617DE7 104FDC5F EA2956AC \n  7390A3EB
+    2B5436AD C847A2C5 DAB553EB 69A9A535 58E9F3E3 C0BD23CF 58BD7188 \n  68E69491 20F320E7
+    948E71D7 AE3BCC84 F10684C7 4BC8E00F 539BA42B 42C68BB7 \n  C7479096 B4CB2D62 EA2F505D
+    C7B062A4 6811D95B E8250FC4 5D5D5FB8 8F27D191 \n  C55F0D76 61F9A4CD 3D992327 A8BB03BD
+    4E6D7069 7CBADF8B DF5F4368 95135E44 \n  DFC7C6CF 04DD7FD1 02030100 01A34230 40300E06
+    03551D0F 0101FF04 04030201 \n  06300F06 03551D13 0101FF04 05300301 01FF301D 0603551D
+    0E041604 1449DC85 \n  4B3D31E5 1B3E6A17 606AF333 3D3B4C73 E8300D06 092A8648 86F70D01
+    010B0500 \n  03820101 00507F24 D3932A66 86025D9F E838AE5C 6D4DF6B0 49631C78 240DA905
+    \n  604EDCDE FF4FED2B 77FC460E CD636FDB DD44681E 3A5673AB 9093D3B1 6C9E3D8B \n
+    \ D98987BF E40CBD9E 1AECA0C2 2189BB5C 8FA85686 CD98B646 5575B146 8DFC66A8 \n  467A3DF4
+    4D565700 6ADF0F0D CF835015 3C04FF7C 21E878AC 11BA9CD2 55A9232C \n  7CA7B7E6 C1AF74F6
+    152E99B7 B1FCF9BB E973DE7F 5BDDEB86 C71E3B49 1765308B \n  5FB0DA06 B92AFE7F 494E8A9E
+    07B85737 F3A58BE1 1A48A229 C37C1E69 39F08678 \n  80DDCD16 D6BACECA EEBC7CF9 8428787B
+    35202CDC 60E4616A B623CDBD 230E3AFB \n  418616A9 4093E049 4D10AB75 27E86F73 932E35B5
+    8862FDAE 0275156F 719BB2F0 \n  D697DF7F 28\n  \tquit\n!\nlicense udi pid C8000V
+    sn 9PI9JA7A4R7\ndiagnostic bootup level minimal\nmemory free low-watermark processor
+    68460\n!\n!\nusername student privilege 15 nopassword\n!\nredundancy\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface
+    GigabitEthernet1\n ip address 172.25.250.20 255.255.255.0\n negotiation auto\n!\ninterface
+    GigabitEthernet2\n no ip address\n shutdown\n negotiation auto\n!\nno ip forward-protocol
+    nd\nno ip http server\nip http authentication local\nno ip http secure-server\n!\nip
+    ssh version 2\nip ssh pubkey-chain\n  username student\n   key-hash ssh-rsa 26C82745C171D3BD9EFE2AA23EB8645F
+    LabGradingKey\n!\n!\n!\n!\n!\ncontrol-plane\n!\n!\nline con 0\n stopbits 1\nline
+    aux 0\nline vty 0 4\n password 7 010012115F0E081B\n login local\n transport input
+    ssh\n!\ncall-home\n ! If contact email address in call-home is configured as sch-smart-licensing@cisco.com\n
+    ! the email address configured in Cisco Smart License Portal will be used as contact
+    email address to send SCH notifications.\n contact-email-addr sch-smart-licensing@cisco.com\n
+    profile \"CiscoTAC-1\"\n  active\n  destination transport-method http\n!\n!\n!\n!\n!\n!\nend"
+net_filesystems:
+- 'bootflash:'
+net_filesystems_info:
+    'bootflash:':
+        spacefree_kb: 9819200.0
+        spacetotal_kb: 11304176.0
+net_gather_network_resources: []
+net_gather_subset:
+- interfaces
+- hardware
+- default
+- config
+net_hostname: iosxe1.lab.example.com
+net_image: bootflash:packages.conf
+net_interfaces:
+    GigabitEthernet1:
+        bandwidth: 1000000
+        description: null
+        duplex: Full
+        ipv4:
+        -   address: 172.25.250.20
+            subnet: '24'
+        lineprotocol: up
+        macaddress: 5254.0000.fa14
+        mediatype: Virtual
+        mtu: 1500
+        operstatus: up
+        type: vNIC
+    GigabitEthernet2:
+        bandwidth: 1000000
+        description: null
+        duplex: Full
+        ipv4: []
+        lineprotocol: down
+        macaddress: 5254.0001.c814
+        mediatype: Virtual
+        mtu: 1500
+        operstatus: administratively down
+        type: vNIC
+net_iostype: IOS-XE
+net_memfree_mb: 1839754.99609375
+net_memtotal_mb: 2028097.13671875
+net_model: C8000V
+net_neighbors: {}
+net_operatingmode: autonomous
+net_python_version: 3.9.13
+net_serialnum: 9PI9JA7A4R7
+net_system: ios
+net_version: 17.06.02
+network_resources: {}
