@@ -1,0 +1,4 @@
+---
+- src: git@git.lab.example.com:student/report
+  scm: git
+  version: main
